@@ -64,8 +64,8 @@ var bio = " is the co-founde and editress-in-chief of The Huffington Post";
 console.log(entrepreneurs[2] + bio);
 entrepreneurs[9];
 
-function accessElementInArray(array, index){
-  return array[index];
+function accessElementInArray(chocolateBars, index){
+  return chocolateBars[1];
 }
 
 const days = ["Monday", "Tuesday", "Wednesday"];
