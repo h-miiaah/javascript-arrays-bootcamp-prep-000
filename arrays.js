@@ -38,6 +38,6 @@ var myArray = [1, 2, 3];
 myArray[5] = 5;
 myArray;
 
-function addElementToBeginnigOfArray([], element){
-  return [].push(element)
+function addElementToBeginnigOfArray(array, element){
+  return array.push(element)
 };
