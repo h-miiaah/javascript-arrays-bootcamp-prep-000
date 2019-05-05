@@ -57,5 +57,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars, moreChocolate){
   return chocolateBars;
 }
 
-var entreprenuers = ["Opra Winfrey", "Laurene Powell", "Jobs", "Arianna Huffington"];
+var entreprenuers = ["Opra Winfrey", "Laurene Powell Jobs", "Arianna Huffington"];
 console.log(entrepreneurs[0]);
