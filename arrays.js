@@ -62,3 +62,4 @@ console.log(entrepreneurs[0]);
 
 var bio = " is the co-founde and editress-in-chief of The Huffington Post";
 console.log(entrepreneurs[2] + bio);
+entrepreneurs[9];
