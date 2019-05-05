@@ -56,3 +56,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars, moreChocolate){
   chocolateBars.push(moreChocolate);
   return chocolateBars;
 }
+
+var entreprenuers = ["Opra Winfrey", "Laurene Powell", "Jobs", "Arianna Huffington"];
