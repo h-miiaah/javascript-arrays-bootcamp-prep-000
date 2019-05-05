@@ -42,3 +42,8 @@ myArray;
 function addElementToBeginnigOfArray(chocolateBars, moreChocolate){
   return[moreChocolate, ...chocolateBars];
 }
+
+function destructivelyAddElementToBeginningOfArray(chocolateBars, moreChocolate){
+  chocolateBars.unshift(moreChocolate);
+  return chocolateBars;
+}
