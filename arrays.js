@@ -81,3 +81,20 @@ function removeElementFromBeginningOfArray(chocolateBars){
   chocolateBars = chocolateBars.slice(1);
   return chocolateBars;
 }
+
+var iceCreams = ["chocolate", "vanilla", "raspberry"];
+iceCreams.pop();
+iceCreams;
+
+function destructivelyRemoveElementFromEndOfArray(chocolateBars){
+  chocolateBars.pop();
+  return chocolateBars;
+}
+
+
+
+
+
+
+
+
