@@ -26,3 +26,10 @@ superheroines.push("wonder woman");
 
 var cities = ["New York", "San Fransisco"];
 cities.unshift("Philadelphia");
+
+var cities = ["New York", "San Fransisco"];
+cities = ["Philadelphia", ...cities];
+
+const cats = ["Milo", "Garfield"];
+
+const moreCats = ["Felix", ...cats];
