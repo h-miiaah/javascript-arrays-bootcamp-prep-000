@@ -37,3 +37,7 @@ const moreCats = ["Felix", ...cats];
 var myArray = [1, 2, 3];
 myArray[5] = 5;
 myArray;
+
+function addElementToBeginnigOfArray([], element){
+  return [].push(element)
+};
