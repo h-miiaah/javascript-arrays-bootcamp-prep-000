@@ -65,7 +65,7 @@ console.log(entrepreneurs[2] + bio);
 entrepreneurs[9];
 
 function accessElementInArray(chocolateBars, index){
-  return chocolateBars[1];
+  return chocolateBars[2];
 }
 
 const days = ["Monday", "Tuesday", "Wednesday"];
