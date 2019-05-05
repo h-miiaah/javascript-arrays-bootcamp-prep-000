@@ -39,5 +39,6 @@ myArray[5] = 5;
 myArray;
 
 function addElementToBeginnigOfArray(array, element){
-  return array.push(element)
+  const array = [];
+  return addElementToBeginnigOfArray();
 };
