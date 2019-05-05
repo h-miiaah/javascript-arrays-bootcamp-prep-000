@@ -20,6 +20,7 @@ var empty = [];
 var evenNumbers = new Array();
 
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+var moreChocolate = "hershey";
 
 var superheroines = ["catwoman", "she-hulk", "mystique"];
 superheroines.push("wonder woman");
@@ -38,7 +39,6 @@ var myArray = [1, 2, 3];
 myArray[5] = 5;
 myArray;
 
-function addElementToBeginnigOfArray(array, element){
-  const array = [];
-  return addElementToBeginnigOfArray();
-};
+function addElementToBeginnigOfArray(chocolateBars, moreChocolate){
+  return[moreChocolate, ...chocolateBars];
+}
