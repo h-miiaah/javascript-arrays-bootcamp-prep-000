@@ -39,7 +39,7 @@ var myArray = [1, 2, 3];
 myArray[5] = 5;
 myArray;
 
-function addElementToBeginnigOfArray(chocolateBars, moreChocolate){
+function addElementToBeginningOfArray(chocolateBars, moreChocolate){
   return[moreChocolate, ...chocolateBars];
 }
 
