@@ -8,3 +8,11 @@ var ingredient6 = "garlic"
 var grilledCheeseIngredients = ['bread', 'mild cheese', 'sharp cheese', 'butter', 'tomato', 'garlic']
 
 var tomatoSauceIngredients = ['tomato', 'garlic', 'olive oil', 'basil', 'oregano']
+
+var primeNumbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37];
+
+var tvShows = ["game of thrones", "true detective", "the good wife", "empire"];
+
+var weirdGreeting = ["he", 110, "w", 0, "r", 1, "d"];
+
+var empty = [];
