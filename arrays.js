@@ -67,3 +67,12 @@ entrepreneurs[9];
 function accessElementInArray(array, index){
   return array[index];
 }
+
+const days = ["Monday", "Tuesday", "Wednesday"];
+days.shift();
+days;
+
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
+}
