@@ -33,3 +33,7 @@ cities = ["Philadelphia", ...cities];
 const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
+
+var myArray = [1, 2, 3];
+myArray[5] = 5;
+myArray;
