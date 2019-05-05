@@ -47,3 +47,12 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, moreChocolate)
   chocolateBars.unshift(moreChocolate);
   return chocolateBars;
 }
+
+function addElementToEndOfArray(chocolateBars, moreChocolate){
+  return [chocolateBars, ...moreChocolate];
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, moreChocolate){
+  chocolateBars.push(moreChocolate);
+  return chocolateBars;
+}
